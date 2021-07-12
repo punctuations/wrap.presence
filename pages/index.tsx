@@ -22,14 +22,14 @@ export default function Home() {
               <meta name="theme-color" content="#2f3136" />
           </Head>
           <NextSeo
-              title="react.presence"
-              description="An official react hook for presence."
+              title="wrap.presence"
+              description="An official wrapper for presence."
               openGraph={{
                   type: "website",
-                  url: "https://react.presence.im",
-                  title: "react.presence",
+                  url: "https://wrap.presence.im",
+                  title: "wrap.presence",
                   description:
-                      "An official react hook for presence.",
+                      "An official wrapper for presence.",
                   images: [
                       {
                           url: "https://presence.im/presence.png",
@@ -94,13 +94,13 @@ export default function Home() {
                 </Text>
               </Grid>
               <Grid>
-                <p>An official react hook for presence.</p>
+                <p>An official wrapper for presence.</p>
               </Grid>
               <Grid>
                 <Spacer y={2}/>
               </Grid>
               <Grid>
-                  <Snippet text="yarn add use-presence" width="300px" />
+                  <Snippet text="yarn add wrap-presence" width="300px" />
               </Grid>
               <Footer />
             </Grid.Container>
